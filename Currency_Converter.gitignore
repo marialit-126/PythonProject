@@ -1,0 +1,107 @@
+# ==================== PYTHON ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Виртуальные окружения
+venv/
+ENV/
+env/
+.venv/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ==================== IDE ====================
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Другие
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ==================== ОС ====================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.fuse_hidden*
+.trash-*
+.nfs*
+
+# ==================== ДАННЫЕ И ЛОГИ ====================
+# Логи приложения
+*.log
+logs/
+
+# История конвертаций (локальные данные пользователя)
+conversion_history.json
+app.log
+
+# База данных (если будет)
+*.db
+*.sqlite3
+
+# ==================== СЕКРЕТЫ ====================
+# Ключи API и чувствительные данные
+.env
+*.key
+*.pem
+config_local.py
+secrets.json
+*.secret
+
+# ==================== СБОРКА ====================
+build/
+dist/
+*.spec
+*.manifest
+
+# ==================== ИСКЛЮЧЕНИЯ (!) ====================
+# Но требования и README — нужны в репозитории!
+!requirements.txt
+!README.md
+!LICENSE
