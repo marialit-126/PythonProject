@@ -1,0 +1,18 @@
+[
+  {
+    "date": "2026-05-18 14:30:00",
+    "from_amount": 100.0,
+    "from_curr": "USD",
+    "to_amount": 92.5,
+    "to_curr": "EUR",
+    "rate": 0.925
+  },
+  {
+    "date": "2026-05-18 14:35:12",
+    "from_amount": 5000.0,
+    "from_curr": "RUB",
+    "to_amount": 55.25,
+    "to_curr": "USD",
+    "rate": 0.01105
+  }
+]
